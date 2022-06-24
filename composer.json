@@ -1,6 +1,7 @@
 {
     "name": "bag2/email-validator",
     "description": "",
+    "license": "MPL-2.0",
     "require": {
         "php": ">= 5.4"
     },
