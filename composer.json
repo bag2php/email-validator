@@ -3,5 +3,18 @@
     "description": "",
     "require": {
         "php": ">= 5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+         "psr-4": {
+             "Bag2\\EmailValidator\\": "src"
+         }
+    },
+    "autoload-dev": {
+         "psr-4": {
+             "Bag2\\EmailValidator\\": "tests"
+         }
     }
 }
